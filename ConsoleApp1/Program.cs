@@ -25,6 +25,7 @@
     Console.WriteLine($"Ambos positivos {ambosPositivos}");
     Console.WriteLine($"Nenhum numero negativo? {nenhumNegativo}");
 
+
 }
 catch (Exception e)
 {
