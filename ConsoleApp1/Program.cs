@@ -25,6 +25,15 @@
     Console.WriteLine($"Ambos positivos {ambosPositivos}");
     Console.WriteLine($"Nenhum numero negativo? {nenhumNegativo}");
 
+    if (Directory.Exists("D:\\rafael"))
+    {
+        Console.WriteLine("Existe");
+    }
+    else
+    {
+        Console.WriteLine("n existe");
+        Directory.CreateDirectory("D:\\rafael");
+    }
 
 }
 catch (Exception e)
